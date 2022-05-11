@@ -1,0 +1,71 @@
+* {
+  text-align: center;
+  color: blue;
+}
+
+p {
+  text-align: center;
+  color: red;
+}
+
+#para1 {
+  text-align: center;
+  color: red;
+}
+
+.center {
+  text-align: center;
+  color: red;
+}
+
+h1,
+h2,
+p {
+  text-align: center;
+  color: red;
+}
+
+/* This is a single-line comment */
+
+body {
+    background-color: aqua;
+    background-image: url("bgdesert.jpg");
+    background-repeat: repeat-x;
+    opacity: 0.5;
+    background-position: right top;
+    border-style: dotted;
+}
+
+p {
+    margin: auto; /*auto center kore dey*/
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}/*clock wise */
+
+div {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+/*
+# display : block or inline or none
+it makes inline to block or viceversa 
+or hides them
+
+# max-width
+
+# position : 
+static
+relative
+fixed
+absolute
+sticky 
+
+#
+*/
+
+
