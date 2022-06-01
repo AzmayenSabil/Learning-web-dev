@@ -10,7 +10,6 @@
 // // console.log(document.all);
 // // console.log(document.forms);
 
-
 // //GETELEMENTBYID//
 // var headerTitle = document.getElementById('header-title');
 // var header = document.getElementById('main-header');
@@ -28,7 +27,6 @@
 //     items[i].style.backgroundColor = 'rgb(20,100,100)';
 // }
 
-
 // //GETELEMENTSBYTAGNAME//
 // var li = document.getElementsByTagName('li');
 // console.log(li);
@@ -38,26 +36,60 @@
 //     li[i].style.backgroundColor = 'yellow';
 // }
 
-//QUERYSELECTOR//
-var header = document.querySelector('#main-header');
-header.style.borderBottom = 'SOlid 4px #ccc';
+// //QUERYSELECTOR//
+// var header = document.querySelector('#main-header');
+// header.style.borderBottom = 'SOlid 4px #ccc';
 
-var input = document.querySelector('input');
-input.value = 'HELLO WORLD';
+// var input = document.querySelector('input');
+// input.value = 'HELLO WORLD';
 
-var submit = document.querySelector('input[type="submit"]');
-submit.value = 'SEND';
+// var submit = document.querySelector('input[type="submit"]');
+// submit.value = 'SEND';
 
-var item = document.querySelector('.list-group-item');
-item.style.color = 'red';
+// var item = document.querySelector('.list-group-item');
+// item.style.color = 'red';
 
-var lastItem = document.querySelector('.list-group-item:nth-child(2)');
-lastItem.style.color = 'blue';
+// var lastItem = document.querySelector('.list-group-item:nth-child(2)');
+// lastItem.style.color = 'blue';
 
-//nth-child(even) / nth-child(odd)
+// //nth-child(even) / nth-child(odd)
+
+// //QUERYSELECTORALL//
+
+// var titles = document.querySelectorAll('.title');
+// console.log(titles[1]);
+
+//TRAVERSE THE DOM//
+// var itemlist = document.querySelector('#items');
+// // parent node
+// console.log(itemlist.parentNode);
+// itemlist.parentNode.style.backgroundColor = '#f4f4f4';
+// // child node
+// console.log(itemlist.children);
+// //first element child, last element child, next element sibling
+// console.log(itemlist.nextElementSibling);
+
+// // create element
+// //create a div
+// var newDiv = document.createElement('div');
+// newDiv.className = 'hello';
+// newDiv.id = 'hello1';
+// newDiv.setAttribute('title', 'Hello div');
+// var newDivText = document.createTextNode('Hello world');
+// newDiv.appendChild(newDivText);
+// var container = document.querySelector('header .container');
+// var h1 = document.querySelector('header h1');
+// container.insertBefore(newDiv, h1);
+// console.log(newDiv);
+
+// Event Listener - not running
+
+var button = document
+  .getElementById('button')
+  .addEventListener('Click', buttonClick);
+
+function buttonClick(){
+    console.log('button clicked');
+}
 
 
-//QUERYSELECTORALL//
-
-var titles = document.querySelectorAll('.title');
-console.log(titles[1]);
