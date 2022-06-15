@@ -1,0 +1,7 @@
+npm init
+npm install "package name" --save
+npx create-react-app "name"
+npm start -> default
+npm install
+
+#folder structure
