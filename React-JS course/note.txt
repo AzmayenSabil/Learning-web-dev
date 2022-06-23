@@ -5,3 +5,20 @@ npm start -> default
 npm install
 
 #folder structure
+components 
+Nested components
+root 
+
+#JSX
+->return single element (React.Fragment)
+<>
+    --
+    --
+    --
+</>
+
+to use variable we use {variable} and this variable
+has to return something
+
+
+#props

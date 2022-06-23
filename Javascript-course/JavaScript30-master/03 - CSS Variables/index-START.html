@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+DS<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -22,6 +22,11 @@
 
   <style>
 
+    :root{
+      --base: #ffc600;
+      --spacing: 10px;
+      --blur: 10px;
+    }
     /*
       misc styles, nothing to do with CSS variables
     */
@@ -39,12 +44,30 @@
       margin-bottom: 50px;
     }
 
+    img{
+      padding: var(--spacing);
+      background: var(--base);
+      filter: blur(var(--blur));
+    }
+
+    .hl{
+      color: var(--base);
+    }
+
     input {
       width: 100px;
     }
   </style>
 
   <script>
+    const input = document.querySelectorAll(".controls input");
+    function handleUpdate(){
+      // console.log(this.value);
+      const suffix = this.dataset.sizing || '';
+      document.documentElement.style.setProperty(`--${this.name}`, this.value + suffix);
+    }
+    input.forEach(input => input.addEventListener('change', handleUpdate));
+    input.forEach(input => input.addEventListener('mousemove', handleUpdate));
   </script>
 
 </body>
