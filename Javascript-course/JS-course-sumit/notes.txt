@@ -1,0 +1,16 @@
+## fat array function
+## this, new keyword
+## truthy or falsy value 
+## Ternary operator
+## Array.prototype.find()
+## ---------------.findIndex()
+## ---------------.filter()
+## slice()
+## splice("from where to start", "number of elements to be deleted", "push element using commas")
+## concat()
+## push()
+## map()
+## reduce((prevValue, currentValue) => {}, initialValue)
+## spread operator 
+## rest operator
+## destructuring
