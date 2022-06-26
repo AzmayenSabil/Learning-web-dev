@@ -1,0 +1,15 @@
+React.createElement('attri', 'properties', 'innerHTML')
+
+>> JSX -- javascript XML
+add BABEL 
+
+## REACT ELEMENT
+
+const element = <h1> HELLO {variable}</h1>
+
+dynamic value --> <h1> HELLO {variable}</h1>
+
+we can return JSX element
+
+in HTML we use class, but in react we use className
+

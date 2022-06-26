@@ -1,0 +1,11 @@
+node --version
+npm --version
+
+npx create-react-app project_name
+
+lint -> eslintrc
+
+local workplace setting
+
+// "babel-eslint": "^10.1.0",
+// "parser": "babel-eslint",

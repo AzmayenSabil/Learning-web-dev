@@ -1,0 +1,4 @@
+## STATE
+
+basically the data that changes 
+and its a javascript object

@@ -1,0 +1,6 @@
+## components and props
+
+using function we create an element inside a function
+and return that element. And this is a component
+
+# class syntax to create component
