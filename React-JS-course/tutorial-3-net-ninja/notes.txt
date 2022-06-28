@@ -1,0 +1,7 @@
+** single page website **
+
+node_modules => project dependencies
+public => root html file
+src => where most of the works will be done 
+
+to install all dependencies => npm install
