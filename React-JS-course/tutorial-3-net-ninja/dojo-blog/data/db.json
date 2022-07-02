@@ -1,0 +1,10 @@
+{
+  "blogs": [
+    {
+      "title": "My new website",
+      "body": "lorem ipsum...",
+      "author": "mario",
+      "id": 1
+    }
+  ]
+}

@@ -1,3 +1,5 @@
+>> 1, 2
+
 ** single page website **
 
 node_modules => project dependencies
@@ -5,3 +7,86 @@ public => root html file
 src => where most of the works will be done 
 
 to install all dependencies => npm install
+
+>> 3
+coponents: template and logic
+
+JSX
+
+>> 4
+{var_name} to use dynamic values
+
+we cant return boolean or object 
+but number strings arrays are fine
+
+  const title = "Welcome to the new blog";
+  const likes = 50;
+  const link = "http://www.google.com";
+        <p>{10}</p>
+        <p>{"Hello, sabil"}</p>
+        <p>{[1,2,3,4,5]}</p>
+        <p>{Math.random()*10}</p>
+        <a href={link}>Google Site</a>
+
+>> 5
+App.js -> root component
+Other components will be nested inside root component.
+
+This way it will create a tree like structure
+
+shortcut -> "sfc" to create stateless functional component
+
+>> 6
+worked on index.css
+
+inline css ->   style={{
+                    color: 'white',
+                    backgroundColor: '#f1356d',
+                    borderRadius: '8px'
+                }}
+
+>> 7
+Click events
+
+>> 8
+react doesn't re-render jsx.
+to do this we use hook
+"useState hook"
+import {useState} from 'react';
+const [name, setName] = useState('sabil');
+setName('Azmayen');
+
+>> 9, 10
+>> 11
+""props"" : 
+
+>> 12
+>> 13
+>> 14 
+useEffect hook
+>> 15
+useEffect dependencies
+useEffect(() => {
+    console.log('use effect ran');
+  }, [name]); here name is dependency
+
+>> 16
+JSON server
+endpoints
+get: fetch all blogs
+get: fetch a single item
+post: add a new blog
+delete: delete a blog 
+
+>> 20
+custom hook function should start with the word "use"
+
+>> Using json server
+npx json-server --watch data/db.json --port 8000
+
+>> react router
+npm install react-router-dom@5
+
+>> we use <link> instead of <a> tag
+
+>> route parameters
